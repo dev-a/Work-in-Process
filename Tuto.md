@@ -2,7 +2,9 @@
 
 ## Téléchargement
 https://hadoop.apache.org/releases.html
+
 **Pour la version 2.8.1** 
+
 http://apache.crihan.fr/dist/hadoop/common/hadoop-2.8.1/hadoop-2.8.1.tar.gz
 ## Préparation sur un Systeme Debian 
 Liste des éléments a installer :
@@ -22,6 +24,7 @@ on va décompresser Hadoop dans le répertoire /opt/hadoop
 ### Préparation du cluster
 On détermine la JAVA_HOME
 > readlink -f /usr/bin/java | sed "s:bin/java::"
+
 On modifie le fichier /opt/hadoop/[]/etc/hadoop/hadoop-env.sh ligne 25
 > export JAVA_HOME=/usr/java/latest
   
