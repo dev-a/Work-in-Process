@@ -28,3 +28,6 @@ On détermine la JAVA_HOME
 On modifie le fichier /opt/hadoop/[]/etc/hadoop/hadoop-env.sh ligne 25
 > export JAVA_HOME=/usr/java/latest
   
+### modification de core-site.xml
+
+### modification de hdfs-site.xml:
