@@ -16,5 +16,6 @@ Vagrant.configure("2") do |config|
 	else
 		config.vm.synced_folder "shared", "/shared"
 	end
+  config.vm.network "private_network", ip: "10.100.100.7"
 
 end
